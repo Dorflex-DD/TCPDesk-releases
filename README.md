@@ -1,152 +1,205 @@
-# TCPDesk
+<p align="center">
+  <img src="imagens/pt/00-banner.png" alt="TCPDesk" width="100%">
+</p>
 
-**Português** · [English](#english)
+<p align="center">
+  <a href="https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Dorflex-DD/TCPDesk-releases?label=vers%C3%A3o&color=0B5CAD" alt="Versão"></a>
+  <img src="https://img.shields.io/badge/Windows-x64-0078D4" alt="Windows x64">
+  <img src="https://img.shields.io/badge/.NET-11-512BD4" alt=".NET 11">
+  <img src="https://img.shields.io/badge/idiomas-PT%20%7C%20EN-2EA44F" alt="Português e inglês">
+  <img src="https://img.shields.io/badge/atualiza%C3%A7%C3%A3o-autom%C3%A1tica-F28C28" alt="Atualização automática">
+</p>
 
-**Acesso e administração de equipamentos de rede no Windows, num lugar só.**
-Terminais SSH, Telnet, serial e RDP em abas, comandos em massa, transferência de arquivos, credenciais, SOCKS e ferramentas de rede, organizados em cofres e pastas.
+<p align="center">
+  <a href="https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest"><b>⬇️ Baixar a versão mais nova</b></a> ·
+  <a href="#funcionalidades">Funcionalidades</a> ·
+  <a href="#fotos">Fotos</a> ·
+  <a href="#instalar">Instalar</a> ·
+  <a href="#english">English</a>
+</p>
 
-[**Baixar a versão mais nova**](https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest) · [Todas as versões](https://github.com/Dorflex-DD/TCPDesk-releases/releases) · Windows x64
+---
 
-![TCPDesk: sessões organizadas em pastas e terminais em abas](imagens/pt/01-principal.png)
+**O TCPDesk reúne num lugar só tudo o que quem cuida de rede usa no dia a dia:** terminais SSH, Telnet, serial e RDP em abas, comandos em dezenas de equipamentos ao mesmo tempo, transferência de arquivos, credenciais protegidas, túneis SOCKS e servidores de rede, organizados em cofres e pastas.
+
+<p align="center">
+  <img src="imagens/pt/demo.gif" alt="TCPDesk em uso: abrir um equipamento, ver a saída, dividir a tela e trocar para o tema escuro" width="100%">
+</p>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🗂️ Organizado
+Cofres e pastas por rede, cliente ou local. A pasta passa para os equipamentos a credencial, o protocolo, a porta e o SOCKS. Busca em tudo com **Ctrl+Shift+P**.
+
+</td>
+<td width="33%" valign="top">
+
+### ⚡ Rápido
+Abra o mesmo conjunto de terminais com um clique (**Grupos salvos**), divida a tela e digite em várias abas ao mesmo tempo (**Terminal sincronizado**).
+
+</td>
+<td width="33%" valign="top">
+
+### 🔒 Seguro
+Senhas protegidas pelo Windows, nunca em texto aberto. Códigos OTP no próprio app. Atualização só por HTTPS e só com o SHA-256 conferido.
+
+</td>
+</tr>
+</table>
 
 ## Funcionalidades
 
-### Sessões organizadas
-- **Cofres e pastas** para separar redes, clientes ou locais. Cada pasta passa para os equipamentos dela a credencial, o protocolo, a porta, o SOCKS e as ações ao entrar.
-- **Busca rápida** (Ctrl+Shift+P) em todos os equipamentos, pastas e comandos.
-- **Grupos salvos**: abra de uma vez o mesmo conjunto de terminais que você usa todo dia.
-- Favoritos, recentes, notas e Lixeira com Desfazer.
-
-### Terminais
-- **SSH, Telnet, serial e RDP** em abas, com a tela dividida lado a lado ou em cima e embaixo.
-- **Terminal sincronizado**: o que é digitado numa aba vai para todas as abas escolhidas.
-- Localizar na saída, copiar a saída toda, log por sessão e histórico de logs.
-- **Macros** e ações ao entrar (usuário, senha, OTP e comandos iniciais).
-
-### Comandos em massa
-- **Execução em massa**: os mesmos comandos em dezenas de equipamentos ao mesmo tempo, com o resultado de cada um na própria linha.
-- Exportação dos resultados e histórico das execuções.
-
-![Execução em massa](imagens/pt/03-execucao-em-massa.png)
-
-### Arquivos
-- **Transferência de arquivos** por SFTP, SCP, FTP, FTPS, TFTP, WebDAV, WebDAVS e S3.
-- **Enviar e baixar em lote** para vários equipamentos de uma vez.
-
-### Rede e segurança
-- **Credenciais protegidas** pelo Windows; senhas nunca ficam em texto aberto.
-- **Códigos OTP** (dois fatores) gerados no próprio app.
-- **Cliente SOCKS e proxy** por pasta ou por equipamento, com herança.
-- **Servidores locais**: SOCKS, proxy HTTP/HTTPS, FTP, SFTP, SSH, TFTP, HTTP, SNMP e servidor de console.
-
-### Do seu jeito
-- Tema **claro e escuro**, oito cores de destaque, tamanho de ícones e escala da interface.
-- Telas em **português e inglês**.
-- **Portátil** (nada é gravado fora da pasta do app) ou **instalador** só para o seu usuário, sem administrador.
-- **Atualiza sozinho**, só por HTTPS e só se o SHA-256 do pacote conferir.
-
-| Tema escuro | Propriedades da pasta |
+| | |
 |---|---|
-| ![Tema escuro](imagens/pt/02-tema-escuro.png) | ![Propriedades da pasta](imagens/pt/04-propriedades-da-pasta.png) |
+| 🖥️ **Terminais** | SSH, Telnet, serial e RDP em abas; tela dividida lado a lado ou em cima e embaixo; localizar na saída; log por sessão e histórico de logs. |
+| 🚀 **Execução em massa** | Os mesmos comandos em dezenas de equipamentos ao mesmo tempo, com o resultado de cada um na própria linha; exportação e histórico das execuções. |
+| 🧩 **Macros e ações ao entrar** | Usuário, senha, OTP e comandos iniciais enviados sozinhos ao conectar. |
+| 📁 **Arquivos** | SFTP, SCP, FTP, FTPS, TFTP, WebDAV, WebDAVS e S3; enviar e baixar em lote para vários equipamentos. |
+| 🔑 **Credenciais e OTP** | Credenciais compartilhadas por pasta, guardadas com a proteção do Windows; códigos de dois fatores gerados no app. |
+| 🌐 **SOCKS e proxy** | Cliente SOCKS e proxy por pasta ou por equipamento, com herança. |
+| 🛠️ **Servidores locais** | SOCKS, proxy HTTP/HTTPS, FTP, SFTP, SSH, TFTP, HTTP, SNMP e servidor de console. |
+| ⭐ **Do seu jeito** | Favoritos, recentes, notas, Lixeira com Desfazer, tema claro e escuro, oito cores de destaque, escala da interface. |
+| 🌎 **Português e inglês** | Todas as telas nos dois idiomas; o instalador também. |
+| 🔄 **Sempre atualizado** | O app avisa da versão nova e se atualiza sozinho, mantendo os seus dados. |
 
-| Grupos salvos | Configurações |
-|---|---|
-| ![Grupos salvos](imagens/pt/06-grupos-salvos.png) | ![Configurações › Aparência](imagens/pt/05-configuracoes.png) |
+## Fotos
+
+<p align="center">
+  <img src="imagens/pt/02-lado-a-lado.png" alt="Dois terminais lado a lado" width="100%"><br>
+  <sub>Dois equipamentos lado a lado, cada um com a sua barra de conexão.</sub>
+</p>
+
+| Tema escuro | Execução em massa |
+|:---:|:---:|
+| <img src="imagens/pt/03-tema-escuro.png" alt="Tema escuro"> | <img src="imagens/pt/04-execucao-em-massa.png" alt="Execução em massa"> |
+| **Propriedades da pasta** | **Grupos salvos** |
+| <img src="imagens/pt/05-propriedades-da-pasta.png" alt="Propriedades da pasta"> | <img src="imagens/pt/07-grupos-salvos.png" alt="Grupos salvos"> |
+| **Configurações** | **Sessões e terminal** |
+| <img src="imagens/pt/06-configuracoes.png" alt="Configurações"> | <img src="imagens/pt/01-principal.png" alt="Sessões e terminal"> |
+
+<sub>Todas as imagens usam dados fictícios.</sub>
 
 ## Instalar
 
-Os pacotes estão na [página da versão mais nova](https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest). Os dois precisam do [Microsoft .NET 11 Desktop Runtime x64](https://dotnet.microsoft.com/download/dotnet/11.0).
+1. Baixe na [página da versão mais nova](https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest):
+   - **Portátil (.zip)**: extraia e abra o `TCPDesk.exe`. Nada é gravado fora da pasta do app.
+   - **Instalador (.msi)**: instala só para o seu usuário, sem administrador. Para atualizar, instale por cima; os dados continuam.
+2. Os dois precisam do [Microsoft .NET 11 Desktop Runtime x64](https://dotnet.microsoft.com/download/dotnet/11.0).
 
-1. **Portátil (.zip)**: extraia e abra o `TCPDesk.exe`, sem instalar.
-2. **Instalador (.msi)**: instala só para o seu usuário. Para atualizar, instale por cima; os seus dados continuam.
-
-O mesmo MSI abre em português. Para instalar em inglês:
+O instalador abre em português. Para instalar em inglês:
 
 ```text
 msiexec /i TCPDesk_vX_instalador_sem-runtime.msi TRANSFORMS=":1033"
 ```
 
-Cada versão traz o `SHA256.txt` para conferir os arquivos. Depois de instalado, o TCPDesk avisa das versões novas e se atualiza pelo próprio app.
+Cada versão traz o `SHA256.txt` para conferir os arquivos. Veja [todas as versões](https://github.com/Dorflex-DD/TCPDesk-releases/releases).
 
-Este projeto tem só as versões publicadas. O código-fonte não é público. As imagens usam dados fictícios.
+Este projeto tem só as versões publicadas; o código-fonte não é público.
 
 ## Termos de uso
 
-Leia o arquivo [LICENSE](LICENSE) (a tradução para o inglês está em [LICENSE-en](LICENSE-en)). © Fabio Giacomelli. Todos os direitos reservados.
+Leia o arquivo [LICENSE](LICENSE) (tradução para o inglês em [LICENSE-en](LICENSE-en)). © Fabio Giacomelli. Todos os direitos reservados.
 
 ---
 
 <a id="english"></a>
 
-# TCPDesk (English)
+<p align="center">
+  <img src="imagens/en/00-banner.png" alt="TCPDesk" width="100%">
+</p>
 
-**Network device access and administration on Windows, all in one place.**
-SSH, Telnet, serial and RDP terminals in tabs, bulk commands, file transfer, credentials, SOCKS and network tools, organized in vaults and folders.
+<p align="center">
+  <a href="https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest"><b>⬇️ Download the latest version</b></a> ·
+  <a href="#features">Features</a> ·
+  <a href="#screenshots">Screenshots</a> ·
+  <a href="#install">Install</a>
+</p>
 
-[**Download the latest version**](https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest) · [All releases](https://github.com/Dorflex-DD/TCPDesk-releases/releases) · Windows x64
+**TCPDesk brings together everything network people use every day:** SSH, Telnet, serial and RDP terminals in tabs, commands on dozens of devices at once, file transfer, protected credentials, SOCKS tunnels and network servers, organized in vaults and folders.
 
-![TCPDesk: sessions organized in folders and terminals in tabs](imagens/en/01-principal.png)
+<p align="center">
+  <img src="imagens/en/demo.gif" alt="TCPDesk in use: open a device, see the output, split the screen and switch to the dark theme" width="100%">
+</p>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🗂️ Organized
+Vaults and folders per network, customer or site. A folder passes its credential, protocol, port and SOCKS to its devices. Search everything with **Ctrl+Shift+P**.
+
+</td>
+<td width="33%" valign="top">
+
+### ⚡ Fast
+Open the same set of terminals in one click (**Saved groups**), split the screen and type into several tabs at once (**Synced terminal**).
+
+</td>
+<td width="33%" valign="top">
+
+### 🔒 Secure
+Passwords protected by Windows, never in plain text. OTP codes inside the app. Updates over HTTPS only, with the SHA-256 checked.
+
+</td>
+</tr>
+</table>
+
+<a id="features"></a>
 
 ## Features
 
-### Organized sessions
-- **Vaults and folders** to keep networks, customers or sites apart. Each folder passes its credential, protocol, port, SOCKS and login actions down to its devices.
-- **Quick search** (Ctrl+Shift+P) across all devices, folders and commands.
-- **Saved groups**: open the same set of terminals you use every day in one go.
-- Favorites, recents, notes and a Recycle Bin with Undo.
-
-### Terminals
-- **SSH, Telnet, serial and RDP** in tabs, with a split screen side by side or top and bottom.
-- **Synced terminal**: what you type in one tab goes to all the tabs you choose.
-- Find in the output, copy the whole output, per-session log and log history.
-- **Macros** and login actions (user, password, OTP and startup commands).
-
-### Bulk commands
-- **Bulk Execution**: run the same commands on dozens of devices at once, with each device's result on its own row.
-- Export the results and keep a history of runs.
-
-![Bulk Execution](imagens/en/03-execucao-em-massa.png)
-
-### Files
-- **File transfer** over SFTP, SCP, FTP, FTPS, TFTP, WebDAV, WebDAVS and S3.
-- **Batch send and download** to many devices at once.
-
-### Network and security
-- **Credentials protected** by Windows; passwords are never stored in plain text.
-- **OTP codes** (two-factor) generated inside the app.
-- **SOCKS and proxy client** per folder or per device, with inheritance.
-- **Local servers**: SOCKS, HTTP/HTTPS proxy, FTP, SFTP, SSH, TFTP, HTTP, SNMP and console server.
-
-### Your way
-- **Light and dark** themes, eight accent colors, icon size and interface scale.
-- Screens in **English and Portuguese**.
-- **Portable** (nothing is written outside the app folder) or an **installer** for your user only, no administrator needed.
-- **Updates itself**, over HTTPS only and only when the package SHA-256 matches.
-
-| Dark theme | Folder properties |
+| | |
 |---|---|
-| ![Dark theme](imagens/en/02-tema-escuro.png) | ![Folder properties](imagens/en/04-propriedades-da-pasta.png) |
+| 🖥️ **Terminals** | SSH, Telnet, serial and RDP in tabs; split screen side by side or top and bottom; find in the output; per-session log and log history. |
+| 🚀 **Bulk Execution** | The same commands on dozens of devices at once, with each device's result on its own row; export and run history. |
+| 🧩 **Macros and login actions** | User, password, OTP and startup commands sent automatically when connecting. |
+| 📁 **Files** | SFTP, SCP, FTP, FTPS, TFTP, WebDAV, WebDAVS and S3; batch send and download to many devices. |
+| 🔑 **Credentials and OTP** | Credentials shared per folder, stored with Windows protection; two-factor codes generated in the app. |
+| 🌐 **SOCKS and proxy** | SOCKS and proxy client per folder or per device, with inheritance. |
+| 🛠️ **Local servers** | SOCKS, HTTP/HTTPS proxy, FTP, SFTP, SSH, TFTP, HTTP, SNMP and console server. |
+| ⭐ **Your way** | Favorites, recents, notes, Recycle Bin with Undo, light and dark themes, eight accent colors, interface scale. |
+| 🌎 **English and Portuguese** | Every screen in both languages, including the installer. |
+| 🔄 **Always up to date** | The app tells you about new versions and updates itself, keeping your data. |
 
-| Saved groups | Settings |
-|---|---|
-| ![Saved groups](imagens/en/06-grupos-salvos.png) | ![Settings › Appearance](imagens/en/05-configuracoes.png) |
+<a id="screenshots"></a>
+
+## Screenshots
+
+<p align="center">
+  <img src="imagens/en/02-lado-a-lado.png" alt="Two terminals side by side" width="100%"><br>
+  <sub>Two devices side by side, each with its own connection bar.</sub>
+</p>
+
+| Dark theme | Bulk Execution |
+|:---:|:---:|
+| <img src="imagens/en/03-tema-escuro.png" alt="Dark theme"> | <img src="imagens/en/04-execucao-em-massa.png" alt="Bulk Execution"> |
+| **Folder properties** | **Saved groups** |
+| <img src="imagens/en/05-propriedades-da-pasta.png" alt="Folder properties"> | <img src="imagens/en/07-grupos-salvos.png" alt="Saved groups"> |
+| **Settings** | **Sessions and terminal** |
+| <img src="imagens/en/06-configuracoes.png" alt="Settings"> | <img src="imagens/en/01-principal.png" alt="Sessions and terminal"> |
+
+<sub>All images use fictitious data.</sub>
+
+<a id="install"></a>
 
 ## Install
 
-The packages are on the [latest release page](https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest). Both require the [Microsoft .NET 11 Desktop Runtime x64](https://dotnet.microsoft.com/download/dotnet/11.0).
+1. Download from the [latest release page](https://github.com/Dorflex-DD/TCPDesk-releases/releases/latest):
+   - **Portable (.zip)**: extract and open `TCPDesk.exe`. Nothing is written outside the app folder.
+   - **Installer (.msi)**: installs for your user only, no administrator needed. To update, install over it; your data is kept.
+2. Both require the [Microsoft .NET 11 Desktop Runtime x64](https://dotnet.microsoft.com/download/dotnet/11.0).
 
-1. **Portable (.zip)**: extract and open `TCPDesk.exe`, without installing.
-2. **Installer (.msi)**: installs for your user only. To update, install over it; your data is kept.
-
-The same MSI opens in Portuguese. To install in English:
+The installer opens in Portuguese. To install in English:
 
 ```text
 msiexec /i TCPDesk_vX_instalador_sem-runtime.msi TRANSFORMS=":1033"
 ```
 
-Each release includes `SHA256.txt` to check the files. Once installed, TCPDesk tells you about new versions and updates itself from inside the app.
+Each release includes `SHA256.txt` to check the files. See [all releases](https://github.com/Dorflex-DD/TCPDesk-releases/releases).
 
-This project holds only the published versions. The source code is not public. The images use fictitious data.
+This project holds only the published versions; the source code is not public.
 
 ## Terms of use
 
