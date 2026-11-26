@@ -55,10 +55,11 @@ Senhas protegidas pelo Windows, nunca em texto aberto. Códigos OTP no próprio 
 2. **Conecte** — dois cliques abrem o terminal: SSH, Telnet, serial, RDP ou console pela rede. Abra vários lado a lado ou um grupo salvo inteiro.
 3. **Trabalhe em escala** — rode comandos em vários equipamentos de uma vez, envie arquivos em lote e tenha o log de cada sessão na pasta do equipamento.
 
-## Novidades — v1.7.53
+## Novidades — v1.7.54
 
-- Janela Terminal mais compacta: Sync, Topo e Reconectar viraram ícones no título e os campos ocupam a largura toda.
-- O botão que impede a suspensão do computador mostra ☀ "Sem suspensão" e ☾ "Suspensão normal".
+- Menu da aba do terminal mais enxuto e agrupado pelo que se faz (sessão, tela, ferramentas, aba); a opção de pausar o log deixou de existir.
+- Logs: cada equipamento tem a pasta com o seu IP e o arquivo se chama nome_ip_data.log, tudo em minúsculas; os logs antigos são levados para a pasta nova sozinhos.
+- Confirmar colagem: a janela abre do tamanho do texto, sem barra de rolagem, com tudo numa linha embaixo; a barra de título dos diálogos ficou mais baixa.
 
 ## Funcionalidades
 
@@ -163,10 +164,11 @@ Passwords protected by Windows, never in plain text. OTP codes inside the app. U
 2. **Connect** — a double click opens the terminal: SSH, Telnet, serial, RDP or network console. Open several side by side or a whole saved group.
 3. **Work at scale** — run commands on many devices at once, send files in batch and keep each session's log in the device folder.
 
-## What's new — v1.7.53
+## What's new — v1.7.54
 
-- More compact Terminal window: Sync, Always on top and Reconnect are icons in the title bar and the fields use the full width.
-- The button that keeps the computer awake shows ☀ "No sleep" and ☾ "Normal sleep".
+- Leaner terminal tab menu, grouped by what you do (session, screen, tools, tab); the option to pause the log no longer exists.
+- Logs: each device has a folder named after its IP and the file is name_ip_date.log, all lowercase; old logs are moved to the new folder automatically.
+- Confirm paste: the window opens at the size of the text, with no scroll bar and everything in one line at the bottom; dialog title bars are lower.
 
 <a id="features"></a>
 
