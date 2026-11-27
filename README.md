@@ -55,11 +55,15 @@ Senhas protegidas pelo Windows, nunca em texto aberto. Códigos OTP no próprio 
 2. **Conecte** — dois cliques abrem o terminal: SSH, Telnet, serial, RDP ou console pela rede. Abra vários lado a lado ou um grupo salvo inteiro.
 3. **Trabalhe em escala** — rode comandos em vários equipamentos de uma vez, envie arquivos em lote e tenha o log de cada sessão na pasta do equipamento.
 
-## Novidades — v1.7.54
+## Novidades — v1.7.55
 
-- Menu da aba do terminal mais enxuto e agrupado pelo que se faz (sessão, tela, ferramentas, aba); a opção de pausar o log deixou de existir.
-- Logs: cada equipamento tem a pasta com o seu IP e o arquivo se chama nome_ip_data.log, tudo em minúsculas; os logs antigos são levados para a pasta nova sozinhos.
-- Confirmar colagem: a janela abre do tamanho do texto, sem barra de rolagem, com tudo numa linha embaixo; a barra de título dos diálogos ficou mais baixa.
+- Pesquisar e filtro das Sessões aceitam várias palavras em qualquer ordem (ex.: "honda core" ou "core honda").
+- Painéis da esquerda (Sessões, Favoritos, Recentes, Sessões abertas) com a mesma largura, fixos ou por cima.
+- Terminais abertos sem grupo voltam a ter o atalho na barra lateral, com a lista ao clicar e Salvar grupo no botão direito.
+- Efeito de zoom ao passar o mouse em todos os ícones da árvore Sessões e no cofre, sem mudar a altura das linhas.
+- Registro de atividade saiu da barra lateral: agora é um botão no canto direito da linha das abas.
+- Sessão encerrada: Enter reconecta e F fecha a aba.
+- Conexão rápida mais compacta: título na barra, Credencial e Socks numa linha e Salvar em no rodapé.
 
 ## Funcionalidades
 
@@ -164,11 +168,15 @@ Passwords protected by Windows, never in plain text. OTP codes inside the app. U
 2. **Connect** — a double click opens the terminal: SSH, Telnet, serial, RDP or network console. Open several side by side or a whole saved group.
 3. **Work at scale** — run commands on many devices at once, send files in batch and keep each session's log in the device folder.
 
-## What's new — v1.7.54
+## What's new — v1.7.55
 
-- Leaner terminal tab menu, grouped by what you do (session, screen, tools, tab); the option to pause the log no longer exists.
-- Logs: each device has a folder named after its IP and the file is name_ip_date.log, all lowercase; old logs are moved to the new folder automatically.
-- Confirm paste: the window opens at the size of the text, with no scroll bar and everything in one line at the bottom; dialog title bars are lower.
+- Search and the Sessions filter accept several words in any order (e.g. "honda core" or "core honda").
+- Left panels (Sessions, Favorites, Recent, Open sessions) have the same width, pinned or floating.
+- Open terminals without a group get their shortcut in the side bar again, with the list on click and Save group on right-click.
+- Hover zoom on every icon of the Sessions tree and on the vault, without changing the row height.
+- Activity log left the side bar: it is now a button at the right end of the tab row.
+- Session ended: Enter reconnects and F closes the tab.
+- More compact Quick connect: title in the title bar, Credential and Socks on one line and Save in at the bottom.
 
 <a id="features"></a>
 
